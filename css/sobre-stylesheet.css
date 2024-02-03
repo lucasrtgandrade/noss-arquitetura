@@ -1,0 +1,41 @@
+/* || Página Sobre */
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.foto-perfil {
+    width: 100%;
+}
+
+.equipe {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.perfil {
+    display: flex;
+    flex-direction: column;
+    gap: .7rem;
+}
+h2 {
+    margin: 1rem 0;
+}
+
+@media (min-width: 800px) {
+    .equipe {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .perfil {
+        position: relative;
+    }
+
+    .emailMarina {
+        position: absolute;
+        bottom: 0;
+    }
+}
