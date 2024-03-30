@@ -26,7 +26,7 @@
     <!-- || Navigation Menu -->
     <?php include "../templates/navigation.php" ?>
     <!-- Main -->
-    <main class="minHeight">
+    <main class="minHeight" id="main">
         <!-- Carousel -->
         <ul class="carousel nobullets">
             <!-- Projeto 01 -->
@@ -210,24 +210,13 @@
                 </div>
             </li>
             <!-- Projeto 16 -->
-            <li class="carousel-list">
-                <div class="image-container">
-                    <picture data-index="15">
-                        <source class="carousel-image" media="(min-width: 1000px)" srcset="../images/escritorio-pg/projeto-pingoo-desktop-16.jpg">
-                        <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-tablet-16.jpg">
-                        <img class="carousel-image" onclick="openLightbox();toSlide(16)" src="../images/escritorio-pg/projeto-pingoo-mobile-16.jpg"
-                        alt="Visão da recepção para o escritório"
-                        loading="lazy">
-                    </picture>
-                </div>
-            </li>
             <!-- Projeto 17 -->
             <li class="carousel-list">
                 <div class="image-container">
-                    <picture data-index="16">
+                    <picture data-index="15">
                         <source class="carousel-image" media="(min-width: 1000px)" srcset="../images/escritorio-pg/projeto-pingoo-desktop-17.jpg">
                         <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-tablet-17.jpg">
-                        <img class="carousel-image" onclick="openLightbox();toSlide(17)" src="../images/escritorio-pg/projeto-pingoo-mobile-17.jpg"
+                        <img class="carousel-image" onclick="openLightbox();toSlide(16)" src="../images/escritorio-pg/projeto-pingoo-mobile-17.jpg"
                         alt="Visão das mesas do escritório"
                         loading="lazy">
                     </picture>
@@ -236,10 +225,10 @@
             <!-- Projeto 18 -->
             <li class="carousel-list">
                 <div class="image-container">
-                    <picture data-index="17">
+                    <picture data-index="16">
                         <source class="carousel-image" media="(min-width: 1000px)" srcset="../images/escritorio-pg/projeto-pingoo-desktop-18.jpg">
                         <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-tablet-18.jpg">
-                        <img class="carousel-image" onclick="openLightbox();toSlide(18)" src="../images/escritorio-pg/projeto-pingoo-mobile-18.jpg"
+                        <img class="carousel-image" onclick="openLightbox();toSlide(17)" src="../images/escritorio-pg/projeto-pingoo-mobile-18.jpg"
                         alt="Visão do escritório"
                         loading="lazy">
                     </picture>
@@ -248,70 +237,37 @@
             <!-- Projeto 19 -->
             <li class="carousel-list">
                 <div class="image-container">
-                    <picture data-index="18">
+                    <picture data-index="17">
                         <source class="carousel-image" media="(min-width: 1000px)" srcset="../images/escritorio-pg/projeto-pingoo-desktop-19.jpg">
                         <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-tablet-19.jpg">
-                        <img class="carousel-image" onclick="openLightbox();toSlide(19)" src="../images/escritorio-pg/projeto-pingoo-mobile-19.jpg"
+                        <img class="carousel-image" onclick="openLightbox();toSlide(18)" src="../images/escritorio-pg/projeto-pingoo-mobile-19.jpg"
                         alt="Visão de uma das mesas do escritório"
                         loading="lazy">
                     </picture>
                 </div>
             </li>
             <!-- Projeto 20 -->
-            <li class="carousel-list">
-                <div class="image-container">
-                    <picture data-index="19">
-                        <source class="carousel-image" media="(min-width: 1000px)" srcset="../images/escritorio-pg/projeto-pingoo-desktop-20.jpg">
-                        <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-tablet-20.jpg">
-                        <img class="carousel-image" onclick="openLightbox();toSlide(20)" src="../images/escritorio-pg/projeto-pingoo-mobile-20.jpg"
-                        alt="Visão frontal do escritório para a sala de reunião"
-                        loading="lazy">
-                    </picture>
-                </div>
-            </li>
             <!-- Projeto 21 -->
             <li class="carousel-list">
                 <div class="image-container">
-                    <picture data-index="20">
+                    <picture data-index="18">
                         <source class="carousel-image" media="(min-width: 1000px)" srcset="../images/escritorio-pg/projeto-pingoo-desktop-21.jpg">
                         <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-tablet-21.jpg">
-                        <img class="carousel-image" onclick="openLightbox();toSlide(21)" src="../images/escritorio-pg/projeto-pingoo-mobile-21.jpg"
+                        <img class="carousel-image" onclick="openLightbox();toSlide(19)" src="../images/escritorio-pg/projeto-pingoo-mobile-21.jpg"
                         alt="Visão para a sala de reunião"
                         loading="lazy">
                     </picture>
                 </div>
             </li>
             <!-- Projeto 22 -->
-            <li class="carousel-list">
-                <div class="image-container">
-                    <picture data-index="21">
-                        <source class="carousel-image" media="(min-width: 1000px)" srcset="../images/escritorio-pg/projeto-pingoo-desktop-22.jpg">
-                        <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-tablet-22.jpg">
-                        <img class="carousel-image" onclick="openLightbox();toSlide(22)" src="../images/escritorio-pg/projeto-pingoo-mobile-22.jpg"
-                        alt="Sala de reunião"
-                        loading="lazy">
-                    </picture>
-                </div>
-            </li>
             <!-- Projeto 23 -->
-            <li class="carousel-list">
-                <div class="image-container">
-                    <picture data-index="22">
-                        <source class="carousel-image" media="(min-width: 1000px)" srcset="../images/escritorio-pg/projeto-pingoo-desktop-23.jpg">
-                        <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-tablet-23.jpg">
-                        <img class="carousel-image" onclick="openLightbox();toSlide(23)" src="../images/escritorio-pg/projeto-pingoo-mobile-23.jpg"
-                        alt="Uma pessoa trabalhando na sala de reunião"
-                        loading="lazy">
-                    </picture>
-                </div>
-            </li>
             <!-- Projeto 24 -->
             <li class="carousel-list">
                 <div class="image-container">
-                    <picture data-index="23">
+                    <picture data-index="19">
                         <source class="carousel-image" media="(min-width: 1000px)" srcset="../images/escritorio-pg/projeto-pingoo-desktop-24.jpg">
                         <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-tablet-24.jpg">
-                        <img class="carousel-image" onclick="openLightbox();toSlide(24)" src="../images/escritorio-pg/projeto-pingoo-mobile-24.jpg"
+                        <img class="carousel-image" onclick="openLightbox();toSlide(20)" src="../images/escritorio-pg/projeto-pingoo-mobile-24.jpg"
                         alt="Uma pessoa saindo da sala de reunião"
                         loading="lazy">
                     </picture>
@@ -320,10 +276,10 @@
             <!-- Projeto 25 -->
             <li class="carousel-list">
                 <div class="image-container">
-                    <picture data-index="24">
+                    <picture data-index="20">
                         <source class="carousel-image" media="(min-width: 1000px)" srcset="../images/escritorio-pg/projeto-pingoo-desktop-25.jpg">
                         <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-tablet-25.jpg">
-                        <img class="carousel-image" onclick="openLightbox();toSlide(25)" src="../images/escritorio-pg/projeto-pingoo-mobile-25.jpg"
+                        <img class="carousel-image" onclick="openLightbox();toSlide(21)" src="../images/escritorio-pg/projeto-pingoo-mobile-25.jpg"
                         alt="Visão do corredor ao lado da sala de reunião"
                         loading="lazy">
                     </picture>
@@ -332,51 +288,29 @@
             <!-- Projeto 26 -->
             <li class="carousel-list">
                 <div class="image-container">
-                    <picture data-index="25">
+                    <picture data-index="21">
                         <source class="carousel-image" media="(min-width: 1000px)" srcset="../images/escritorio-pg/projeto-pingoo-desktop-26.jpg">
                         <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-tablet-26.jpg">
-                        <img class="carousel-image" onclick="openLightbox();toSlide(26)" src="../images/escritorio-pg/projeto-pingoo-mobile-26.jpg"
+                        <img class="carousel-image" onclick="openLightbox();toSlide(22)" src="../images/escritorio-pg/projeto-pingoo-mobile-26.jpg"
                         alt="Visão do corredor"
                         loading="lazy">
                     </picture>
                 </div>
             </li>
             <!-- Projeto 27 -->
-            <li class="carousel-list">
-                <div class="image-container">
-                    <picture data-index="26">
-                        <source class="carousel-image" media="(min-width: 1000px)" srcset="../images/escritorio-pg/projeto-pingoo-desktop-27.jpg">
-                        <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-tablet-27.jpg">
-                        <img class="carousel-image" onclick="openLightbox();toSlide(27)" src="../images/escritorio-pg/projeto-pingoo-mobile-27.jpg"
-                        alt="Pessoa saindo de uma sala no final do corredor"
-                        loading="lazy">
-                    </picture>
-                </div>
-            </li>
             <!-- Projeto 28 -->
             <li class="carousel-list">
                 <div class="image-container">
-                    <picture data-index="27">
+                    <picture data-index="22">
                         <source class="carousel-image" media="(min-width: 1000px)" srcset="../images/escritorio-pg/projeto-pingoo-desktop-28.jpg">
                         <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-tablet-28.jpg">
-                        <img class="carousel-image" onclick="openLightbox();toSlide(28)" src="../images/escritorio-pg/projeto-pingoo-mobile-28.jpg"
+                        <img class="carousel-image" onclick="openLightbox();toSlide(23)" src="../images/escritorio-pg/projeto-pingoo-mobile-28.jpg"
                         alt="Uma pessoa usando a copa do escritório"
                         loading="lazy">
                     </picture>
                 </div>
             </li>
             <!-- Projeto 29 -->
-            <li class="carousel-list">
-                <div class="image-container">
-                    <picture data-index="28">
-                        <source class="carousel-image" media="(min-width: 1000px)" srcset="../images/escritorio-pg/projeto-pingoo-desktop-29.jpg">
-                        <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-tablet-29.jpg">
-                        <img class="carousel-image" onclick="openLightbox();toSlide(29)" src="../images/escritorio-pg/projeto-pingoo-mobile-29.jpg"
-                        alt="Duas pessoas conversando na copa"
-                        loading="lazy">
-                    </picture>
-                </div>
-            </li>
         </ul>
         <!-- || Project Title -->
         <div class="project-title">
@@ -398,66 +332,60 @@
         <!-- Info Panel -->
         <div id="info-panel" class="info-panel" data-visible="false">
             <div class="info-body">
-                <h3 class="name-project">Escritório PG</h3>
-                <p class="project-text">Interiores – 250m²<br>
-                                        Barueri, 2022<br>
-                                        Obra Concluída</p>
-                <div class="container-desenhos">
-                    <div class="mySlides fade">
-                        <picture id="desenho">
-                            <source class="projeto-desenho carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-desenho-desktop-01.webp">
-                            <img class="projeto-desenho carousel-image" onclick="openLightbox();toSlide(30)" src="../images/escritorio-pg/projeto-pingoo-desenho-mobile-01.webp" alt="Planta existia anteriormente">
-                        </picture>
+                <div class="info-panel__header">
+                    <h3 class="info-panel__header-title">Escritório PG</h3>
+                    <p class="info-panel__header-p">Interiores – 250m² <br>Barueri, 2022 - Obra Concluída</p>
+                </div>
+                <div class="grupo-carrosel">
+                    <div class="main-image-container">
+                        <div id="image-info" class="desenhos-counter">1 / 11</div>
+                        <button aria-label="Ir para imagem anterior" id="prev-image">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <button aria-label="Ir para imagem seguinte" id="next-image">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                        <img class="imagem-destaque" id="main-image" onclick="openLightbox();toSlide(24)" src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-01.jpg">
                     </div>
-                    <div class="mySlides fade">
-                        <picture id="desenho">
-                            <source class="projeto-desenho carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-desenho-desktop-02.webp">
-                            <img class="projeto-desenho carousel-image" onclick="openLightbox();toSlide(31)" src="../images/escritorio-pg/projeto-pingoo-desenho-mobile-02.webp" alt="Planta da área de demolição">
-                        </picture>
-                    </div>
-                    <div class="mySlides fade">
-                        <picture id="desenho">
-                            <source class="projeto-desenho carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-desenho-desktop-03.webp">
-                            <img class="projeto-desenho carousel-image" onclick="openLightbox();toSlide(32)" src="../images/escritorio-pg/projeto-pingoo-desenho-mobile-03.webp" alt="Planta de construção do novo projeto">
-                        </picture>
-                    </div>
-                    <div class="mySlides fade">
-                        <picture id="desenho">
-                            <source class="projeto-desenho carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-desenho-desktop-04.webp">
-                            <img class="projeto-desenho carousel-image" onclick="openLightbox();toSlide(33)" src="../images/escritorio-pg/projeto-pingoo-desenho-mobile-04.webp" alt="Planta do layout do projeto">
-                        </picture>
-                    </div>
-                    <div class="mySlides fade">
-                        <picture id="desenho">
-                            <source class="projeto-desenho carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-desenho-desktop-05.webp">
-                            <img class="projeto-desenho carousel-image" onclick="openLightbox();toSlide(34)" src="../images/escritorio-pg/projeto-pingoo-desenho-mobile-05.webp" alt="Detalhe da planta de todo projeto na horizontal">
-                        </picture>
-                    </div>
-                    <div class="mySlides fade">
-                        <picture id="desenho">
-                            <source class="projeto-desenho carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-desenho-desktop-06.webp">
-                            <img class="projeto-desenho carousel-image" onclick="openLightbox();toSlide(35)" src="../images/escritorio-pg/projeto-pingoo-desenho-mobile-06.webp" alt="Detalhe da planta da área de reunião">
-                        </picture>
-                    </div>
-                    <div class="mySlides fade">
-                        <picture id="desenho">
-                            <source class="projeto-desenho carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-desenho-desktop-07.webp">
-                            <img class="projeto-desenho carousel-image" onclick="openLightbox();toSlide(36)" src="../images/escritorio-pg/projeto-pingoo-desenho-mobile-07.webp" alt="Detalhe da planta da área da copa">
-                        </picture>
-                    </div>
-                    <div class="mySlides fade">
-                        <picture id="desenho">
-                            <source class="projeto-desenho carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-desenho-desktop-08.webp">
-                            <img class="projeto-desenho carousel-image" onclick="openLightbox();toSlide(37)" src="../images/escritorio-pg/projeto-pingoo-desenho-mobile-08.webp" alt="Detalhe da planta do banheiro">
-                        </picture>
-                    </div>
-                    <div class="mySlides fade">
-                        <picture id="desenho">
-                            <source class="projeto-desenho carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-pg/projeto-pingoo-desenho-desktop-09.webp">
-                            <img class="projeto-desenho carousel-image" onclick="openLightbox();toSlide(38)" src="../images/escritorio-pg/projeto-pingoo-desenho-mobile-09.webp" alt="Visão isométrica de todo o projeto">
-                        </picture>
+                    <div>
+                        <div class="secundaria">
+                            <img class="imagem-apoio active" src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-01.jpg">
+                        </div>
+                        <div class="secundaria">
+                            <img class="imagem-apoio" src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-02.jpg">
+                        </div>
+                        <div class="secundaria">
+                            <img class="imagem-apoio" src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-03.jpg">
+                            </div>
+                        <div class="secundaria">
+                            <img class="imagem-apoio" src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-04.jpg">
+                        </div>
+                        <div class="secundaria">
+                            <img class="imagem-apoio" src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-05.jpg">
+                        </div>
+                        <div class="secundaria">
+                            <img class="imagem-apoio" src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-06.jpg">
+                        </div>
+                        <div class="secundaria">
+                            <img class="imagem-apoio" src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-07.jpg">
+                        </div>
+                        <div class="secundaria">
+                            <img class="imagem-apoio"  src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-08.jpg">
+                        </div>
+                        <div class="secundaria">
+                            <img class="imagem-apoio"  src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-09.jpg">
+                        </div>
+                        <div class="secundaria">
+                            <img class="imagem-apoio" src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-10.jpg">
+                        </div>
+                        <div class="secundaria">
+                            <img class="imagem-apoio" src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-11.jpg">
+                        </div>
+                        
                     </div>
                 </div>
+            </div>
+
             </div>
         </div>
         <!-- || Next and previous button -->
@@ -518,9 +446,6 @@
                     <img src="../images/escritorio-pg/projeto-pingoo-full-15.jpg" class="image-slide" alt="Detalhe de outra cadeira na recepção">
                 </div>
                 <div class="slide">
-                    <img src="../images/escritorio-pg/projeto-pingoo-full-16.jpg" class="image-slide" alt="Visão da recepção para o escritório">
-                </div>
-                <div class="slide">
                     <img src="../images/escritorio-pg/projeto-pingoo-full-17.jpg" class="image-slide" alt="Visão das mesas do escritório">
                 </div>
                 <div class="slide">
@@ -530,16 +455,7 @@
                     <img src="../images/escritorio-pg/projeto-pingoo-full-19.jpg" class="image-slide" alt="Visão de uma das mesas do escritório">
                 </div>
                 <div class="slide">
-                    <img src="../images/escritorio-pg/projeto-pingoo-full-20.jpg" class="image-slide" alt="Visão frontal do escritório para a sala de reunião">
-                </div>
-                <div class="slide">
                     <img src="../images/escritorio-pg/projeto-pingoo-full-21.jpg" class="image-slide" alt="Visão para a sala de reunião">
-                </div>
-                <div class="slide">
-                    <img src="../images/escritorio-pg/projeto-pingoo-full-22.jpg" class="image-slide" alt="Sala de reunião">
-                </div>
-                <div class="slide">
-                    <img src="../images/escritorio-pg/projeto-pingoo-full-23.jpg" class="image-slide" alt="Uma pessoa trabalhando na sala de reunião">
                 </div>
                 <div class="slide">
                     <img src="../images/escritorio-pg/projeto-pingoo-full-24.jpg" class="image-slide" alt="Uma pessoa saindo da sala de reunião">
@@ -551,40 +467,40 @@
                     <img src="../images/escritorio-pg/projeto-pingoo-full-26.jpg" class="image-slide" alt="Visão do corredor">
                 </div>
                 <div class="slide">
-                    <img src="../images/escritorio-pg/projeto-pingoo-full-27.jpg" class="image-slide" alt="Pessoa saindo de uma sala no final do corredor">
-                </div>
-                <div class="slide">
                     <img src="../images/escritorio-pg/projeto-pingoo-full-28.jpg" class="image-slide" alt="Uma pessoa usando a copa do escritório">
                 </div>
                 <div class="slide">
-                    <img src="../images/escritorio-pg/projeto-pingoo-full-29.jpg" class="image-slide" alt="Duas pessoas conversando na copa">
+                    <img src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-01.jpg" class="image-slide" alt="Planta anterior ao projeto">
                 </div>
                 <div class="slide">
-                    <img src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-01.webp" class="image-slide" alt="Planta anterior ao projeto">
+                    <img src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-02.jpg" class="image-slide" alt="Planta da área de demolição">
                 </div>
                 <div class="slide">
-                    <img src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-02.webp" class="image-slide" alt="Planta da área de demolição">
+                    <img src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-03.jpg" class="image-slide" alt="Planta da área de contrução">
                 </div>
                 <div class="slide">
-                    <img src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-03.webp" class="image-slide" alt="Planta da área de contrução">
+                    <img src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-04.jpg" class="image-slide" alt="Planta do layout do novo projeto">
                 </div>
                 <div class="slide">
-                    <img src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-04.webp" class="image-slide" alt="Planta do layout do novo projeto">
+                    <img src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-05.jpg" class="image-slide" alt="Detalhe lateral do projeto completo">
                 </div>
                 <div class="slide">
-                    <img src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-05.webp" class="image-slide" alt="Detalhe lateral do projeto completo">
+                    <img src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-06.jpg" class="image-slide" alt="Detalhe da planta da área de reunião">
                 </div>
                 <div class="slide">
-                    <img src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-06.webp" class="image-slide" alt="Detalhe da planta da área de reunião">
+                    <img src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-07.jpg" class="image-slide" alt="Detalhe da planta na área da cozinha">
                 </div>
                 <div class="slide">
-                    <img src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-07.webp" class="image-slide" alt="Detalhe da planta na área da cozinha">
+                    <img src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-08.jpg" class="image-slide" alt="Detalhe da planta na área do banheiro">
                 </div>
                 <div class="slide">
-                    <img src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-08.webp" class="image-slide" alt="Detalhe da planta na área do banheiro">
+                    <img src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-09.jpg" class="image-slide" alt="Planta isométrica do projeto">
                 </div>
                 <div class="slide">
-                    <img src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-09.webp" class="image-slide" alt="Planta isométrica do projeto">
+                    <img src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-10.jpg" class="image-slide" alt="Planta isométrica do projeto">
+                </div>
+                <div class="slide">
+                    <img src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-11.jpg" class="image-slide" alt="Planta isométrica do projeto">
                 </div>
                 <!-- CONTROLS -->
                 <button class="close-button">
@@ -600,11 +516,136 @@
         </div>
         <!-- || Carousel Counter -->
         <div class="carousel-counter">
-            <span class="current-slide">1</span><span>/</span><span class="total-slides">29</span>
+            <span class="current-slide">1</span><span>/</span><span class="total-slides">23</span>
         </div>
     </main>
     <!-- Footer -->
-    <footer class="foot-space"></footer>
+    <footer id="footer"></footer>
+            <!-- SCRIPT -->
+            <script>
+    function adjustMainContentHeight() {
+        var headerHeight = document.getElementById('header').offsetHeight;
+        var footerHeight = document.getElementById('footer').offsetHeight;
+        var viewportHeight = window.innerHeight;
+        var mainContentHeight = viewportHeight - headerHeight - footerHeight;
+
+        document.getElementById('main').style.height = mainContentHeight + 'px';
+    }
+
+    // Adjust the height when the page loads
+    window.onload = adjustMainContentHeight;
+
+    // Adjust the height whenever the window is resized
+    window.onresize = adjustMainContentHeight;
+
+
+    // IMAGENS PARA O DESENHO 
+
+    let imagesDesenhos = document.querySelectorAll('.galeria-de-imagens .secundaria img');
+    const galeria = document.getElementById('galeria-de-imagens');
+    let estaArrastando = false;
+    let posInicial = 0;
+    let scrollLeftStart = 0;
+
+    galeria.addEventListener('mousedown', (event) => {
+        estaArrastando = true;
+        posInicial = event.pageX - galeria.offsetLeft;
+        scrollLeftStart = galeria.scrollLeft;
+        galeria.style.cursor = 'grabbing';
+    });
+
+    galeria.addEventListener('mouseleave', () => {
+        estaArrastando = false;
+        galeria.style.cursor = 'grab';
+    });
+
+    galeria.addEventListener('mouseup', () => {
+        estaArrastando = false;
+        galeria.style.cursor = 'grab';
+    });
+
+    galeria.addEventListener('mousemove', (event) => {
+        if (!estaArrastando) return;
+        event.preventDefault();
+        const x = event.pageX - galeria.offsetLeft;
+        const walk = (x - posInicial) * 2;
+        galeria.scrollLeft = scrollLeftStart - walk;
+    });
+
+    document.querySelectorAll('.galeria-de-imagens img').forEach(img => {
+        img.addEventListener('dragstart', (event) => {
+            event.preventDefault();
+        });
+    });
+
+    function scrollThumbnailIntoView(index) {
+        const gallery = document.getElementById('galeria-de-imagens');
+        const thumbnails = document.querySelectorAll('.galeria-de-imagens .secundaria');
+        if (thumbnails.length > index) {
+            const selectedThumbnail = thumbnails[index];
+
+            const galleryRect = gallery.getBoundingClientRect();
+            const thumbnailRect = selectedThumbnail.getBoundingClientRect();
+
+            if (thumbnailRect.left < galleryRect.left) {
+                gallery.scrollLeft -= galleryRect.left - thumbnailRect.left;
+            } else if (thumbnailRect.right > galleryRect.right) {
+                gallery.scrollLeft += thumbnailRect.right - galleryRect.right;
+            }
+        }
+    }
+
+    function setMainImage(index) {
+
+        const mainImage = document.getElementById('main-image');
+        if (imagesDesenhos.length > index) { // Check if the index is within bounds
+            mainImage.src = imagesDesenhos[index].src;
+            mainImage.alt = imagesDesenhos[index].alt;
+
+            // Adjust the starting slide number here by adding 10 to the index
+            const slideNumber = index + 24;
+            mainImage.setAttribute('onclick', `openLightbox();toSlide(${slideNumber})`);
+
+            const imageInfo = document.getElementById('image-info');
+            imageInfo.textContent = `${index + 1} / ${imagesDesenhos.length}`;
+
+            document.querySelectorAll('.galeria-de-imagens .secundaria').forEach((container, idx) => {
+                if (idx === index) {
+                    container.classList.add('active');
+                } else {
+                    container.classList.remove('active');
+                }
+            });
+
+            scrollThumbnailIntoView(index);
+        }
+    }
+
+
+    const previousButton = document.getElementById('prev-image');
+    const nextButtonProx = document.getElementById('next-image');
+    let currentValor = 0;
+
+    previousButton.addEventListener('click', () => {
+        currentValor = (currentValor - 1 + imagesDesenhos.length) % imagesDesenhos.length;
+        setMainImage(currentValor);
+    });
+
+    nextButtonProx.addEventListener('click', () => {
+        currentValor = (currentValor + 1) % imagesDesenhos.length;
+        setMainImage(currentValor);
+    });
+
+    document.querySelectorAll('.galeria-de-imagens .secundaria img').forEach((item, index) => {
+        item.addEventListener('click', () => {
+            currentValor = index;
+            setMainImage(currentValor);
+        });
+    });
+
+    setMainImage(currentValor);
+
+    </script>
 </body>
 
 </html>

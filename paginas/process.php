@@ -14,7 +14,7 @@
     <script src="../js/stickyNav.js"></script>
     <script src="../js/nav.js" defer></script>
     <script src="../js/full-height.js"></script>
-    <title>Contato Enviado</title>
+    <title class="envio-correto">Contato Enviado</title>
 </head>
 
 <body>

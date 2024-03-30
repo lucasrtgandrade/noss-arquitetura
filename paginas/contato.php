@@ -51,7 +51,7 @@
                 error_reporting(E_ALL);
                 $name = $_POST["name"];
                 $from = "$name <$email>";
-                $to = "contato@lucasreategui.com";
+                $to = "contato@noss.arq.br";
                 $reason = $_POST["reason"];
                 $message = filter_var(strip_tags(trim($form_data['message'])), FILTER_SANITIZE_ADD_SLASHES);
                 $message = 'From: ' . $from . ', for ' . $reason . "\n\n" . $message;
@@ -63,7 +63,7 @@
                 }
             }
             ?>
-            <h1>Contato</h1>
+            <!-- <h1>Contato</h1> -->
             <form name="contato" method="post">
                 <!-- action="process.php" -->
                 <div class="test">

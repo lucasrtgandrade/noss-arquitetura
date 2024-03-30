@@ -1,33 +1,31 @@
 /* || icons */
 .fa-brands {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 @media (min-width: 75rem) {
-    .fa-brands {
-        font-size: 2rem;
-    }
+  .fa-brands {
+    font-size: 2rem;
+  }
 }
-
-
 
 /* || Header */
 
 /* || Stick Header */
 .sticky {
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
 }
 
 .content {
-    padding: 2rem;
+  padding: 2rem;
 }
 
 .sticky + .content {
-    padding-top: 12rem;
+  padding-top: 12rem;
 }
 
 /* || Header Medium size */
@@ -35,201 +33,205 @@
 /* || Header */
 
 .mobile-info {
-    display: none;
+  display: none;
 }
 .hamburger-resize {
-    display: none;
+  display: none;
 }
+
 .main-header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+@media (min-width:1400px) {
+  .main-header {
     max-width: 1650px;
-    margin: 0 auto;
+  }
 }
 
 .header-style {
-    padding-top: 1rem;
-    background-color: var(--clr-support-300);
+  /* padding-top: 0.5rem; */
+  background-color: var(--clr-support-300);
 }
 
 .empty {
-    width: 72px;
-    height: 32px;
+  width: 72px;
+  height: 32px;
 }
 
 /* || Logo */
 .main-logo {
-    font-size: 3.75rem;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    color: var(--clr-primary-500);
+  font-size: 3.75rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  color: var(--clr-primary-500);
 }
 
 /* || Icons */
 .main-icons {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .main-instagram {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .main-whatsapp {
-    font-size: 2rem;
+  font-size: 2rem;
 }
-
 
 /* || Main Navigation */
 .main-navigation {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    background: var(--clr-primary-500);
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  background: var(--clr-primary-500);
 }
 
 /* || Navigation Links */
 .nav-links-color {
-    color: var(--clr-support-300);
-    display: block;
-    padding: 1.40625rem .5rem;
+  color: var(--clr-support-300);
+  display: block;
+  padding: 1rem 0.5rem;
+  /* padding: 1.40625rem 0.5rem; */
 }
 
 .nav-links-color:hover {
-    background: var(--clr-primary-700);
+  background: var(--clr-primary-700);
 }
 
 /* || Mobile Nav */
 
 @media (max-width: 37.5rem) {
+  .sticky + .content {
+    padding-top: 7rem;
+  }
 
-    .sticky + .content {
-        padding-top: 7rem;
-    }
+  .empty {
+    display: none;
+  }
 
-    .empty {
-        display: none;
-    }
+  /* || Header */
+  .header-style {
+    padding-top: 1rem;
+    background-color: var(--clr-support-300);
+    border-bottom: 5px solid var(--clr-primary-500);
+  }
 
-    /* || Header */
-    .header-style {
-        padding-top: 2rem;
-        background-color: var(--clr-support-300);
-        border-bottom: 5px solid var(--clr-primary-500);
-    }
+  /* || Hamburger Menu */
+  .mobile-nav-toggle {
+    background: url(../assets/icon-bars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1.75rem;
+    height: 1.5rem;
+    border: none;
+    z-index: 9999;
+    position: relative;
+  }
 
-    /* || Hamburger Menu */
-    .mobile-nav-toggle {
-        background: url(../assets/icon-bars.svg);
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 1.75rem;
-        height: 1.5rem;
-        border: none;
-        z-index: 9999;
-        position: relative;
-    }
+  .mobile-nav-toggle[aria-expanded="true"] {
+    background: url(../assets/icon-xmark.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 
-    .mobile-nav-toggle[aria-expanded="true"] {
-        background: url(../assets/icon-xmark.svg);
-        background-repeat: no-repeat;
-        background-position: center;
-    }
+  .hamburger-resize {
+    padding: 0 1.125rem;
+    display: block;
+  }
 
-    .hamburger-resize {
-        padding: 0 1.125rem;
-        display: block;
-    }
+  /* || Logo */
+  .main-logo {
+    font-size: 2.5rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: var(--clr-primary-500);
+  }
 
-    /* || Logo */
-    .main-logo {
-        font-size: 2.5rem;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
-        color: var(--clr-primary-500);
-    }
+  /* || Icons */
+  .main-instagram {
+    padding: 0 0.09375rem;
+    font-size: 1.5rem;
+  }
 
-    /* || Icons */
-    .main-instagram {
-        padding: 0 0.09375rem;
-        font-size: 1.5rem;
-    }
+  .main-whatsapp {
+    padding: 0 0.09375rem;
+    font-size: 1.5rem;
+  }
 
-    .main-whatsapp {
-        padding: 0 0.09375rem;
-        font-size: 1.5rem;
-    }
+  /* || Navigation */
 
+  .primary-navigation {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background: var(--clr-primary-500);
+    z-index: 1000;
+    transform: translateX(-100%);
+    transition: transform 400ms ease-out;
+  }
 
-    /* || Navigation */
+  .primary-navigation[data-visible="true"] {
+    transform: translateX(0);
+  }
 
-    .primary-navigation {
-        position: fixed;
-        inset: 0;
-        display: flex;
-        justify-content: space-between;
-        flex-direction: column;
-        background: var(--clr-primary-500);
-        z-index: 1000;
-        transform: translateX(-100%);
-        transition: transform 400ms ease-out;
-    }
+  .main-navigation {
+    display: block;
+  }
 
-    .primary-navigation[data-visible="true"] {
-        transform: translateX(0);
-    }
+  .nav-links-color {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.78125rem;
+    font-weight: 500;
+  }
 
-    .main-navigation {
-        display: block;
-    }
+  .nav-links-color:hover {
+    background: var(--clr-primary-700);
+  }
 
-    .nav-links-color {
-        text-align: center;
-        font-size: 2rem;
-        padding: 0.78125rem;
-        font-weight: 500;
-    }
+  /* || Mobile Info */
+  .mobile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
 
-    .nav-links-color:hover {
-        background: var(--clr-primary-700);
-    }
+  /* || Mobile Logo */
+  .mobile-logo {
+    font-size: 4rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: var(--clr-support-300);
+  }
 
-    /* || Mobile Info */
-    .mobile-info {
-        display: flex;
-        flex-direction: column;
-        gap: 1rem;
-    }
+  /* || Mobile Icons */
+  .mobile-icons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+  }
 
-    /* || Mobile Logo */
-    .mobile-logo {
-        font-size: 4rem;
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
-        text-align: center;
-        color: var(--clr-support-300);
-    }
+  .mobile-instagram {
+    color: var(--clr-support-300);
+    font-size: 2rem;
+  }
 
-    /* || Mobile Icons */
-    .mobile-icons {
-        display: flex;
-        justify-content: center;
-        gap: 2rem;
-    }
+  .mobile-whatsapp {
+    color: var(--clr-support-300);
+    font-size: 2rem;
+  }
 
-    .mobile-instagram {
-        color: var(--clr-support-300);
-        font-size: 2rem;
-    }
-
-    .mobile-whatsapp {
-        color: var(--clr-support-300);
-        font-size: 2rem;
-    }
-
-    .bottom-space {
-        padding-bottom: 2rem;
-    }
-    
+  .bottom-space {
+    padding-bottom: 2rem;
+  }
 }

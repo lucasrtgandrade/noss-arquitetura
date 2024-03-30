@@ -23,7 +23,7 @@
 <body>
     <!-- || Navigation Menu -->
     <?php include "../templates/navigation.php" ?>
-    <main class="minHeight">
+    <main class="minHeight" id="main">
         <!-- Carousel -->
             <ul class="carousel nobullets">
                 <!-- Projeto 01 -->
@@ -57,122 +57,68 @@
                     </div>
                 </li>
                 <!-- Projeto 04 -->
-                <li class="carousel-list">
-                    <div class="image-container">
-                        <picture data-index="3">
-                            <source class="carousel-image active" media="(min-width: 1000px)" srcset="../images/escritorio-bt/projeto-biotrop-desktop-04.jpg">
-                            <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-tablet-04.jpg">
-                            <img class="carousel-image" onclick="openLightbox();toSlide(4)" src="../images/escritorio-bt/projeto-biotrop-mobile-04.jpg" alt="Área de lazer com plantas" loading="lazy">
-                        </picture>
-                    </div>
-                </li>
                 <!-- Projeto 05 -->
                 <li class="carousel-list">
                     <div class="image-container">
-                        <picture data-index="4">
+                        <picture data-index="3">
                             <source class="carousel-image active" media="(min-width: 1000px)" srcset="../images/escritorio-bt/projeto-biotrop-desktop-05.jpg">
                             <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-tablet-05.jpg">
-                            <img class="carousel-image" onclick="openLightbox();toSlide(5)" src="../images/escritorio-bt/projeto-biotrop-mobile-05.jpg" alt="Área de lazer com plantas" loading="lazy">
+                            <img class="carousel-image" onclick="openLightbox();toSlide(4)" src="../images/escritorio-bt/projeto-biotrop-mobile-05.jpg" alt="Área de lazer com plantas" loading="lazy">
                         </picture>
                     </div>
                 </li>
                 <!-- Projeto 06 -->
-                <li class="carousel-list">
-                    <div class="image-container">
-                        <picture data-index="5">
-                            <source class="carousel-image active" media="(min-width: 1000px)" srcset="../images/escritorio-bt/projeto-biotrop-desktop-06.jpg">
-                            <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-tablet-06.jpg">
-                            <img class="carousel-image" onclick="openLightbox();toSlide(6)" src="../images/escritorio-bt/projeto-biotrop-mobile-06.jpg" alt="Recepção da Biotrop" loading="lazy">
-                        </picture>
-                    </div>
-                </li>
                 <!-- Projeto 07 -->
-                <li class="carousel-list">
-                    <div class="image-container">
-                        <picture data-index="6">
-                            <source class="carousel-image active" media="(min-width: 1000px)" srcset="../images/escritorio-bt/projeto-biotrop-desktop-07.jpg">
-                            <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-tablet-07.jpg">
-                            <img class="carousel-image" onclick="openLightbox();toSlide(7)" src="../images/escritorio-bt/projeto-biotrop-mobile-07.jpg" alt="Recepção da Biotrop" loading="lazy">
-                        </picture>
-                    </div>
-                </li>
                 <!-- Projeto 08 -->
-                <li class="carousel-list">
-                    <div class="image-container">
-                        <picture data-index="7">
-                            <source class="carousel-image active" media="(min-width: 1000px)" srcset="../images/escritorio-bt/projeto-biotrop-desktop-08.jpg">
-                            <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-tablet-08.jpg">
-                            <img class="carousel-image" onclick="openLightbox();toSlide(8)" src="../images/escritorio-bt/projeto-biotrop-mobile-08.jpg" alt="Escritório da Biotrop" loading="lazy">
-                        </picture>
-                    </div>
-                </li>
                 <!-- Projeto 09 -->
                 <li class="carousel-list">
                     <div class="image-container">
-                        <picture data-index="8">
+                        <picture data-index="4">
                             <source class="carousel-image active" media="(min-width: 1000px)" srcset="../images/escritorio-bt/projeto-biotrop-desktop-09.jpg">
                             <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-tablet-09.jpg">
-                            <img class="carousel-image" onclick="openLightbox();toSlide(9)" src="../images/escritorio-bt/projeto-biotrop-mobile-09.jpg" alt="Escritório da Biotrop" loading="lazy">
+                            <img class="carousel-image" onclick="openLightbox();toSlide(5)" src="../images/escritorio-bt/projeto-biotrop-mobile-09.jpg" alt="Escritório da Biotrop" loading="lazy">
                         </picture>
                     </div>
                 </li>
                 <!-- Projeto 10-->
                 <li class="carousel-list">
                     <div class="image-container">
-                        <picture data-index="9">
+                        <picture data-index="5">
                             <source class="carousel-image active" media="(min-width: 1000px)" srcset="../images/escritorio-bt/projeto-biotrop-desktop-10.jpg">
                             <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-tablet-10.jpg">
-                            <img class="carousel-image" onclick="openLightbox();toSlide(10)" src="../images/escritorio-bt/projeto-biotrop-mobile-10.jpg" alt="Escritório da Biotrop" loading="lazy">
+                            <img class="carousel-image" onclick="openLightbox();toSlide(6)" src="../images/escritorio-bt/projeto-biotrop-mobile-10.jpg" alt="Escritório da Biotrop" loading="lazy">
                         </picture>
                     </div>
                 </li>
                 <!-- Projeto 11-->
-                <li class="carousel-list">
-                    <div class="image-container">
-                        <picture data-index="10">
-                            <source class="carousel-image active" media="(min-width: 1000px)" srcset="../images/escritorio-bt/projeto-biotrop-desktop-11.jpg">
-                            <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-tablet-11.jpg">
-                            <img class="carousel-image" onclick="openLightbox();toSlide(11)" src="../images/escritorio-bt/projeto-biotrop-mobile-11.jpg" alt="Sala particular para executivos" loading="lazy">
-                        </picture>
-                    </div>
-                </li>
                 <!-- Projeto 12-->
                 <li class="carousel-list">
                     <div class="image-container">
-                        <picture data-index="11">
+                        <picture data-index="6">
                             <source class="carousel-image active" media="(min-width: 1000px)" srcset="../images/escritorio-bt/projeto-biotrop-desktop-12.jpg">
                             <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-tablet-12.jpg">
-                            <img class="carousel-image" onclick="openLightbox();toSlide(12)" src="../images/escritorio-bt/projeto-biotrop-mobile-12.jpg" alt="Sala particular para executivos" loading="lazy">
+                            <img class="carousel-image" onclick="openLightbox();toSlide(7)" src="../images/escritorio-bt/projeto-biotrop-mobile-12.jpg" alt="Sala particular para executivos" loading="lazy">
                         </picture>
                     </div>
                 </li>
                 <!-- Projeto 13-->
                 <li class="carousel-list">
                     <div class="image-container">
-                        <picture data-index="12">
+                        <picture data-index="7">
                             <source class="carousel-image active" media="(min-width: 1000px)" srcset="../images/escritorio-bt/projeto-biotrop-desktop-13.jpg">
                             <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-tablet-13.jpg">
-                            <img class="carousel-image" onclick="openLightbox();toSlide(13)" src="../images/escritorio-bt/projeto-biotrop-mobile-13.jpg" alt="Sala de reunião" loading="lazy">
+                            <img class="carousel-image" onclick="openLightbox();toSlide(8)" src="../images/escritorio-bt/projeto-biotrop-mobile-13.jpg" alt="Sala de reunião" loading="lazy">
                         </picture>
                     </div>
                 </li>
                 <!-- Projeto 14-->
-                <li class="carousel-list">
-                    <div class="image-container">
-                        <picture data-index="13">
-                            <source class="carousel-image active" media="(min-width: 1000px)" srcset="../images/escritorio-bt/projeto-biotrop-desktop-14.jpg">
-                            <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-tablet-14.jpg">
-                            <img class="carousel-image" onclick="openLightbox();toSlide(14)" src="../images/escritorio-bt/projeto-biotrop-mobile-14.jpg" alt="Detalhe da janela da Biotrop" loading="lazy">
-                        </picture>
-                    </div>
-                </li>
                 <!-- Projeto 15-->
                 <li class="carousel-list">
                     <div class="image-container">
-                        <picture data-index="14">
+                        <picture data-index="8">
                             <source class="carousel-image active" media="(min-width: 1000px)" srcset="../images/escritorio-bt/projeto-biotrop-desktop-15.jpg">
                             <source class="carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-tablet-15.jpg">
-                            <img class="carousel-image" onclick="openLightbox();toSlide(15)" src="../images/escritorio-bt/projeto-biotrop-mobile-15.jpg" alt="Visão da fachada do escritório da Biotrop" loading="lazy">
+                            <img class="carousel-image" onclick="openLightbox();toSlide(9)" src="../images/escritorio-bt/projeto-biotrop-mobile-15.jpg" alt="Visão da fachada do escritório da Biotrop" loading="lazy">
                         </picture>
                     </div>
                 </li>     
@@ -197,66 +143,54 @@
             <!-- Info Panel -->
             <div id="info-panel" class="info-panel" data-visible="false">
                 <div class="info-body">
-                    <h3 class="name-project">Escritório BT</h3>
-                    <p class="project-text">Interiores e Fachada – 822m²<br>
-                                            Vinhedo, 2022<br>
-                                            Obra Concluída</p>
-                    <div class="container-desenhos">
-                        <div class="mySlides fade">
-                            <picture id="desenho">
-                                <source class="projeto-desenho carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-desenho-desktop-01.webp">
-                                <img class="projeto-desenho carousel-image" onclick="openLightbox();toSlide(16)" src="../images/escritorio-bt/projeto-biotrop-desenho-mobile-01.webp" alt="Planta do térreo que existia anteriormente">
-                            </picture>
+                <div class="info-panel__header">
+                    <h3 class="info-panel__header-title">Escritório BT</h3>
+                    <p class="info-panel__header-p">Interiores e Fachada – 822m²<br>Vinhedo, 2022 - Obra Concluída</p>
+                </div>
+
+                <div class="grupo-carrosel">
+                    <div class="main-image-container">
+                        <div id="image-info" class="desenhos-counter">1 / 2</div>
+                        <button aria-label="Ir para imagem anterior" id="prev-image">
+                            <i class="fa-solid fa-chevron-left"></i>
+                        </button>
+                        <button aria-label="Ir para imagem seguinte" id="next-image">
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </button>
+                        <img class="imagem-destaque" id="main-image" onclick="openLightbox();toSlide(10)" src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-01.jpg">
+                    </div>
+                    <div>
+                        <div class="secundaria">
+                            <img class="imagem-apoio active" src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-01.jpg">
                         </div>
-                        <div class="mySlides fade">
-                            <picture id="desenho">
-                                <source class="projeto-desenho carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-desenho-desktop-02.webp">
-                                <img class="projeto-desenho carousel-image" onclick="openLightbox();toSlide(17)" src="../images/escritorio-bt/projeto-biotrop-desenho-mobile-02.webp" alt="Planta do primeiro pavimento que existia anteriormente">
-                            </picture>
+                        <div class="secundaria">
+                            <img class="imagem-apoio" src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-02.jpg">
                         </div>
-                        <div class="mySlides fade">
-                            <picture id="desenho">
-                                <source class="projeto-desenho carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-desenho-desktop-03.webp">
-                                <img class="projeto-desenho carousel-image" onclick="openLightbox();toSlide(18)" src="../images/escritorio-bt/projeto-biotrop-desenho-mobile-03.webp" alt="Planta do segundo pavimento que existia anteriormente">
-                            </picture>
+                        <div class="secundaria">
+                            <img class="imagem-apoio" src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-03.jpg">
                         </div>
-                        <div class="mySlides fade">
-                            <picture id="desenho">
-                                <source class="projeto-desenho carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-desenho-desktop-04.webp">
-                                <img class="projeto-desenho carousel-image" onclick="openLightbox();toSlide(19)" src="../images/escritorio-bt/projeto-biotrop-desenho-mobile-04.webp" alt="DEMOLIÇÃO-CONSTRUÇÃO PAV. TÉRREO">
-                            </picture>
+                        <div class="secundaria">
+                            <img class="imagem-apoio" src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-04.jpg">
                         </div>
-                        <div class="mySlides fade">
-                            <picture id="desenho">
-                                <source class="projeto-desenho carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-desenho-desktop-05.webp">
-                                <img class="projeto-desenho carousel-image" onclick="openLightbox();toSlide(20)" src="../images/escritorio-bt/projeto-biotrop-desenho-mobile-05.webp" alt="DEMOLIÇÃO-CONSTRUÇÃO PAV. 1">
-                            </picture>
+                        <div class="secundaria">
+                            <img class="imagem-apoio" src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-05.jpg">
                         </div>
-                        <div class="mySlides fade">
-                            <picture id="desenho">
-                                <source class="projeto-desenho carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-desenho-desktop-06.webp">
-                                <img class="projeto-desenho carousel-image" onclick="openLightbox();toSlide(21)" src="../images/escritorio-bt/projeto-biotrop-desenho-mobile-06.webp" alt="DEMOLIÇÃO-CONSTRUÇÃO PAV. 2">
-                            </picture>
+                        <div class="secundaria">
+                            <img class="imagem-apoio" src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-06.jpg">
                         </div>
-                        <div class="mySlides fade">
-                            <picture id="desenho">
-                                <source class="projeto-desenho carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-desenho-desktop-07.webp">
-                                <img class="projeto-desenho carousel-image" onclick="openLightbox();toSlide(22)" src="../images/escritorio-bt/projeto-biotrop-desenho-mobile-07.webp" alt="LAYOUT PAV. TÉRREO">
-                            </picture>
+                        <div class="secundaria">
+                            <img class="imagem-apoio" src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-07.jpg">
                         </div>
-                        <div class="mySlides fade">
-                            <picture id="desenho">
-                                <source class="projeto-desenho carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-desenho-desktop-08.webp">
-                                <img class="projeto-desenho carousel-image" onclick="openLightbox();toSlide(23)" src="../images/escritorio-bt/projeto-biotrop-desenho-mobile-08.webp" alt="LAYOUT PAV. 1">
-                            </picture>
+                        <div class="secundaria">
+                            <img class="imagem-apoio" src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-08.jpg">
                         </div>
-                        <div class="mySlides fade">
-                            <picture id="desenho">
-                                <source class="projeto-desenho carousel-image" media="(min-width: 600px)" srcset="../images/escritorio-bt/projeto-biotrop-desenho-desktop-09.webp">
-                                <img class="projeto-desenho carousel-image" onclick="openLightbox();toSlide(24)" src="../images/escritorio-bt/projeto-biotrop-desenho-mobile-09.webp" alt="Layout Pavimento Dois">
-                            </picture>
+                        <div class="secundaria">
+                            <img class="imagem-apoio" src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-09.jpg">
                         </div>
                     </div>
+                </div>
+
+
                 </div>
             </div>
             <!-- || Next and previous button -->
@@ -281,19 +215,7 @@
                         <img src="../images/escritorio-bt/projeto-biotrop-full-03.jpg" class="image-slide" alt="Área de lazer com televisão e canteiro com plantas" loading="lazy">
                     </div>
                     <div class="slide">
-                        <img src="../images/escritorio-bt/projeto-biotrop-full-04.jpg" class="image-slide" alt="Área de lazer com plantas" loading="lazy">
-                    </div>
-                    <div class="slide">
                         <img src="../images/escritorio-bt/projeto-biotrop-full-05.jpg" class="image-slide" alt="Área de lazer com plantas" loading="lazy">
-                    </div>
-                    <div class="slide">
-                        <img src="../images/escritorio-bt/projeto-biotrop-full-06.jpg" class="image-slide" alt="Recepção da Biotrop" loading="lazy">
-                    </div>
-                    <div class="slide">
-                        <img src="../images/escritorio-bt/projeto-biotrop-full-07.jpg" class="image-slide" alt="Recepção da Biotrop" loading="lazy">
-                    </div>
-                    <div class="slide">
-                        <img src="../images/escritorio-bt/projeto-biotrop-full-08.jpg" class="image-slide" alt="Escritório da Biotrop" loading="lazy">
                     </div>
                     <div class="slide">
                         <img src="../images/escritorio-bt/projeto-biotrop-full-09.jpg" class="image-slide" alt="Escritório da Biotrop" loading="lazy">
@@ -302,46 +224,40 @@
                         <img src="../images/escritorio-bt/projeto-biotrop-full-10.jpg" class="image-slide" alt="Escritório da Biotrop" loading="lazy">
                     </div>
                     <div class="slide">
-                        <img src="../images/escritorio-bt/projeto-biotrop-full-11.jpg" class="image-slide" alt="Sala particular para executivos" loading="lazy">
-                    </div>
-                    <div class="slide">
                         <img src="../images/escritorio-bt/projeto-biotrop-full-12.jpg" class="image-slide" alt="Sala particular para executivos" loading="lazy">
                     </div>
                     <div class="slide">
                         <img src="../images/escritorio-bt/projeto-biotrop-full-13.jpg" class="image-slide" alt="Sala de reunião" loading="lazy">
                     </div>
                     <div class="slide">
-                        <img src="../images/escritorio-bt/projeto-biotrop-full-14.jpg" class="image-slide" alt="Detalhe da janela da Biotrop" loading="lazy">
-                    </div>
-                    <div class="slide">
                         <img src="../images/escritorio-bt/projeto-biotrop-full-15.jpg" class="image-slide" alt="Visão da fachada do escritório da Biotrop" loading="lazy">
                     </div>
                     <div class="slide">
-                        <img src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-01.webp" class="image-slide" alt="Planta térreo anterior ao projeto" loading="lazy">
+                        <img src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-01.jpg" class="image-slide" alt="Planta térreo anterior ao projeto" loading="lazy">
                     </div>
                     <div class="slide">
-                        <img src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-02.webp" class="image-slide" alt="Planta do primeiro pavimento que existia anteriormente" loading="lazy">
+                        <img src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-02.jpg" class="image-slide" alt="Planta do primeiro pavimento que existia anteriormente" loading="lazy">
                     </div>
                     <div class="slide">
-                        <img src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-03.webp" class="image-slide" alt="Planta do segundo pavimento que existia anteriormente" loading="lazy">
+                        <img src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-03.jpg" class="image-slide" alt="Planta do segundo pavimento que existia anteriormente" loading="lazy">
                     </div>
                     <div class="slide">
-                        <img src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-04.webp" class="image-slide" alt="DEMOLIÇÃO-CONSTRUÇÃO Térreo" loading="lazy">
+                        <img src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-04.jpg" class="image-slide" alt="DEMOLIÇÃO-CONSTRUÇÃO Térreo" loading="lazy">
                     </div>
                     <div class="slide">
-                        <img src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-05.webp" class="image-slide" alt="DEMOLIÇÃO-CONSTRUÇÃO PAV. 1" loading="lazy">
+                        <img src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-05.jpg" class="image-slide" alt="DEMOLIÇÃO-CONSTRUÇÃO PAV. 1" loading="lazy">
                     </div>
                     <div class="slide">
-                        <img src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-06.webp" class="image-slide" alt="DEMOLIÇÃO-CONSTRUÇÃO PAV. 2" loading="lazy">
+                        <img src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-06.jpg" class="image-slide" alt="DEMOLIÇÃO-CONSTRUÇÃO PAV. 2" loading="lazy">
                     </div>
                     <div class="slide">
-                        <img src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-07.webp" class="image-slide" alt="Layout Térreo" loading="lazy">
+                        <img src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-07.jpg" class="image-slide" alt="Layout Térreo" loading="lazy">
                     </div>
                     <div class="slide">
-                        <img src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-08.webp" class="image-slide" alt="Layout Pavimento Um" loading="lazy">
+                        <img src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-08.jpg" class="image-slide" alt="Layout Pavimento Um" loading="lazy">
                     </div>
                     <div class="slide">
-                        <img src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-09.webp" class="image-slide" alt="Layout Pavimento Dois" loading="lazy">
+                        <img src="../images/escritorio-bt/projeto-biotrop-desenho-desktop-09.jpg" class="image-slide" alt="Layout Pavimento Dois" loading="lazy">
                     </div>
                     <!-- CONTROLS -->
                     <button class="close-button">
@@ -357,10 +273,138 @@
             </div>
             <!-- || Carousel Counter -->
             <div class="carousel-counter">
-                <span class="current-slide">1</span><span>/</span><span class="total-slides">15</span>
+                <span class="current-slide">1</span><span>/</span><span class="total-slides">9</span>
             </div>
     </main>
     <!-- Footer -->
-    <footer class="foot-space"></footer>
+    <footer id="footer"></footer>
+            <!-- SCRIPT -->
+            <script>
+    function adjustMainContentHeight() {
+        var headerHeight = document.getElementById('header').offsetHeight;
+        var footerHeight = document.getElementById('footer').offsetHeight;
+        var viewportHeight = window.innerHeight;
+        var mainContentHeight = viewportHeight - headerHeight - footerHeight;
+
+        document.getElementById('main').style.height = mainContentHeight + 'px';
+    }
+
+    // Adjust the height when the page loads
+    window.onload = adjustMainContentHeight;
+
+    // Adjust the height whenever the window is resized
+    window.onresize = adjustMainContentHeight;
+
+
+
+
+        // IMAGENS PARA O DESENHO 
+
+        let imagesDesenhos = document.querySelectorAll('.galeria-de-imagens .secundaria img');
+    const galeria = document.getElementById('galeria-de-imagens');
+    let estaArrastando = false;
+    let posInicial = 0;
+    let scrollLeftStart = 0;
+
+    galeria.addEventListener('mousedown', (event) => {
+        estaArrastando = true;
+        posInicial = event.pageX - galeria.offsetLeft;
+        scrollLeftStart = galeria.scrollLeft;
+        galeria.style.cursor = 'grabbing';
+    });
+
+    galeria.addEventListener('mouseleave', () => {
+        estaArrastando = false;
+        galeria.style.cursor = 'grab';
+    });
+
+    galeria.addEventListener('mouseup', () => {
+        estaArrastando = false;
+        galeria.style.cursor = 'grab';
+    });
+
+    galeria.addEventListener('mousemove', (event) => {
+        if (!estaArrastando) return;
+        event.preventDefault();
+        const x = event.pageX - galeria.offsetLeft;
+        const walk = (x - posInicial) * 2;
+        galeria.scrollLeft = scrollLeftStart - walk;
+    });
+
+    document.querySelectorAll('.galeria-de-imagens img').forEach(img => {
+        img.addEventListener('dragstart', (event) => {
+            event.preventDefault();
+        });
+    });
+
+    function scrollThumbnailIntoView(index) {
+        const gallery = document.getElementById('galeria-de-imagens');
+        const thumbnails = document.querySelectorAll('.galeria-de-imagens .secundaria');
+        if (thumbnails.length > index) {
+            const selectedThumbnail = thumbnails[index];
+
+            const galleryRect = gallery.getBoundingClientRect();
+            const thumbnailRect = selectedThumbnail.getBoundingClientRect();
+
+            if (thumbnailRect.left < galleryRect.left) {
+                gallery.scrollLeft -= galleryRect.left - thumbnailRect.left;
+            } else if (thumbnailRect.right > galleryRect.right) {
+                gallery.scrollLeft += thumbnailRect.right - galleryRect.right;
+            }
+        }
+    }
+
+    function setMainImage(index) {
+
+        const mainImage = document.getElementById('main-image');
+        if (imagesDesenhos.length > index) { // Check if the index is within bounds
+            mainImage.src = imagesDesenhos[index].src;
+            mainImage.alt = imagesDesenhos[index].alt;
+
+            // Adjust the starting slide number here by adding 10 to the index
+            const slideNumber = index + 10;
+            mainImage.setAttribute('onclick', `openLightbox();toSlide(${slideNumber})`);
+
+            const imageInfo = document.getElementById('image-info');
+            imageInfo.textContent = `${index + 1} / ${imagesDesenhos.length}`;
+
+            document.querySelectorAll('.galeria-de-imagens .secundaria').forEach((container, idx) => {
+                if (idx === index) {
+                    container.classList.add('active');
+                } else {
+                    container.classList.remove('active');
+                }
+            });
+
+            scrollThumbnailIntoView(index);
+        }
+    }
+
+
+    const previousButton = document.getElementById('prev-image');
+    const nextButtonProx = document.getElementById('next-image');
+    let currentValor = 0;
+
+    previousButton.addEventListener('click', () => {
+        currentValor = (currentValor - 1 + imagesDesenhos.length) % imagesDesenhos.length;
+        setMainImage(currentValor);
+    });
+
+    nextButtonProx.addEventListener('click', () => {
+        currentValor = (currentValor + 1) % imagesDesenhos.length;
+        setMainImage(currentValor);
+    });
+
+    document.querySelectorAll('.galeria-de-imagens .secundaria img').forEach((item, index) => {
+        item.addEventListener('click', () => {
+            currentValor = index;
+            setMainImage(currentValor);
+        });
+    });
+
+    setMainImage(currentValor);
+
+
+    </script>
 </body>
 </html>

@@ -21,7 +21,7 @@
     <?php include "../templates/navigation-stick.php" ?>
     <!-- || Main Content -->
     <main class="content">
-        <h1>Sobre</h1>
+        <!-- <h1>Sobre</h1> -->
         <p>Somos um escritório que visualiza o espaço de maneira integrada e propõe soluções que consideram a Arquitetura por sua urbanidade, por suas possibilidades e vocações espaciais e por sua ambiência interna, transitando entre as disciplinas de Arquitetura, Interiores e Design. Atuamos, portanto, nas mais diversas escalas, sempre em busca de realizar projetos que propiciem fluidez, versatilidade, conforto, usabilidade e qualidade estética para os espaços projetados. Nossa busca por equilíbrio entre forma e função, entre a beleza e o uso, entre a contemplação e a fruição, se dá através de um  processo obrigatoriamente colaborativo com o cliente e/ou o usuário final, numa construção conjunta e complementar. Buscamos enfatizar as qualidades espaciais através de diferentes materiais e materialidades, de contrastes entre texturas e cores, da presença marcante da paisagem e das vegetações e dos mobiliários de design moderno e contemporâneo, criando uma personalidade única para cada projeto, mas sempre atentos às necessidades e realidades das mais diferentes demandas e dos ambientes naturais e construídos que os envolvem.</p>
         <h2>Equipe</h2>
         <div class="equipe">

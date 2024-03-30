@@ -1,8 +1,14 @@
 /* || Página Sobre */
 
 .content {
-    max-width: 1200px;
+    max-width: 900px;
     margin: 0 auto;
+}
+
+@media (min-width: 1400px) {
+    .content {
+        max-width: 1200px;
+    }
 }
 
 .foto-perfil {
