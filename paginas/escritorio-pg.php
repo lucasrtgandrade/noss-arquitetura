@@ -347,7 +347,7 @@
                         </button>
                         <img class="imagem-destaque" id="main-image" onclick="openLightbox();toSlide(24)" src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-01.jpg">
                     </div>
-                    <div>
+                    <div class="galeria-de-imagens" id="galeria-de-imagens">
                         <div class="secundaria">
                             <img class="imagem-apoio active" src="../images/escritorio-pg/projeto-pingoo-desenho-desktop-01.jpg">
                         </div>

@@ -159,7 +159,7 @@
                         </button>
                         <img class="imagem-destaque" id="main-image" onclick="openLightbox();toSlide(10)" src="../images/studio-af414/projeto-republica-desenho-mobile-01.jpg">
                     </div>
-                    <div>
+                    <div class="galeria-de-imagens" id="galeria-de-imagens">
                         <div class="secundaria">
                             <img class="imagem-apoio active" src="../images/studio-af414/projeto-republica-desenho-mobile-01.jpg">
                         </div>

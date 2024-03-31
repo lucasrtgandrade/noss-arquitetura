@@ -288,7 +288,7 @@
                         </button>
                         <img class="imagem-destaque" id="main-image" onclick="openLightbox();toSlide(21)" src="../images/apartamento-az8c/projeto-moema-desenho-desktop-01.jpg">
                     </div>
-                    <div>
+                    <div class="galeria-de-imagens" id="galeria-de-imagens">
                         <div class="secundaria">
                             <img class="imagem-apoio active" src="../images/apartamento-az8c/projeto-moema-desenho-desktop-01.jpg">
                         </div>

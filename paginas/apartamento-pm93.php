@@ -150,7 +150,7 @@
                         </button>
                         <img class="imagem-destaque" id="main-image" onclick="openLightbox();toSlide(10)" src="../images/apartamento-pm93/projeto-west-side-desenho-desktop-01.jpg">
                     </div>
-                    <div>
+                    <div class="galeria-de-imagens" id="galeria-de-imagens">
                         <div class="secundaria">
                             <img class="imagem-apoio active" src="../images/apartamento-pm93/projeto-west-side-desenho-desktop-01.jpg">
                         </div>
